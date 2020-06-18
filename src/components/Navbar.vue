@@ -1,51 +1,111 @@
 <template>
-  <div class="container">
-    <nav>
-      <div class="logo mr-auto">
-        <h1 class="text-light">
-          <a href="index.html">
-            <span>Vesperr</span>
-          </a>
-        </h1>
-      </div>
-      <ul class="nav-menu ">
-        <li class="active">
-          <a href="/" >Home</a>
-        </li>
-        <li>
-          <a href="/about" >About</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-
-        <li class="get-started">
-          <a href="#about">Get Started</a>
+  <div class>
+    <nav  id="navbar">
+      <div class="logo">Vesperr</div>
+      <ul class="nav-menu">
+        <li v-for="(link, index) in navbarLinks" :key="link + index">
+          <router-link :to="link.path">{{link.name}}</router-link>
         </li>
       </ul>
+      <div class="buttons">
+        <span>
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
     </nav>
   </div>
 </template>
-
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      navbarLinks: [
+        {
+          name: "Home",
+          path: "/"
+        },
+        {
+          name: "About",
+          path: "/about"
+        },
+        {
+          name: "Shop",
+          path: "/shopping"
+        },
+        {
+          name: "Service",
+          path: "/service"
+        },
+        {
+          name: "Ship",
+          path: "/ship"
+        },
+        {
+          name: "Review",
+          path: "/review"
+        }
+      ]
+    };
+  },
+  methods: {
+    scrollClass() {
+      console.log("a");
+    },
+    updateScroll() {
+      // this.scrollPosition = window.scrollY;
+      let position = window.scrollY;
+
+      if (position > 20) {
+        console.log("scrolled");
+        let el = document.getElementById('navbar')
+        el.classList.add('scrolled')
+      } else {
+        console.log("scroll");
+        let el = document.getElementById('navbar')
+        el.classList.remove('scrolled')
+      }
+    }
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+    console.log("connect");
+  }
+};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
   align-items: center;
-  margin: 1em 0;
+  justify-content: space-between;
+  padding: 1.2em 2em;
+  background: white;
+  transition: 0.5s;
+
+  .logo {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .buttons {
+    span {
+      color: #919aa3;
+    }
+  }
+}
+
+nav.scrolled {
+  box-shadow: 0 0 18px -5px #919aa3;
+  transition: 0.5s;
 }
 
 .nav-menu,
@@ -53,7 +113,11 @@ nav {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex
+  display: flex;
+
+  .router-link-exact-active {
+    color: #3498db;
+  }
 }
 
 .nav-menu > ul > li {
@@ -62,11 +126,13 @@ nav {
 
 .nav-menu a {
   position: relative;
-  color: #555555;
-  padding: 8px 0 12px 25px;
-  transition: 0.3s;
+  color: #919aa3;
+  padding: 0 2em;
+  transition: 0.5s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .nav-menu a:hover,
