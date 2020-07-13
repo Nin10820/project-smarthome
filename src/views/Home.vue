@@ -28,10 +28,116 @@
     <!-- End Hero -->
 
     <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-1.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+            />
+          </div>
 
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-2.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            />
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-3.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            />
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-4.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            />
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-5.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            />
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img
+              src="../assets/images/clients/client-6.png"
+              class="img-fluid"
+              alt
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- End Clients Section -->
 
-    <section>
+    <!-- ======= Features Section ======= -->
+    <section class="features container">
+      <h3>Features</h3>
+      <p
+        class="text-center"
+      >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit repellat dolore id tempora saepe modi est atque minima laboriosam. Ipsum at, iure fugiat architecto dignissimos quibusdam ea quia hic numquam.</p>
+      <div class="features-main row py-5">
+        <img src="../assets/images/features-1.png" alt class="img-fluid col-6" />
+        <div class="col-6">
+          <h4 class="font-weight-">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+          <p
+            class="font-italic"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi accusantium maxime quia, adipisci illo earum harum sequi dolore aliquid, officia</p>
+          <ul>
+            <li>quos perferendis nobis nesciunt officiis laborum fugit nam modi.</li>
+            <li>quos perferendis nobis nesciunt officiis laborum fugit nam modi.</li>
+            <li>quos perferendis nobis nesciunt officiis laborum fugit nam modi.</li>
+          </ul>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis sapiente maxime error accusantium totam a ratione eveniet commodi eligendi!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-item col-sm-3">
+          <ICountUp :endVal="108" class="feature-item__val" />
+          <div>Clients</div>
+        </div>
+        <div class="feature-item col-sm-3">
+          <ICountUp :endVal="29" class="feature-item__val" />
+          <div>Clients</div>
+        </div>
+        <div class="feature-item col-sm-3">
+          <ICountUp :endVal="8" class="feature-item__val" />
+          <div>Clients</div>
+        </div>
+        <div class="feature-item col-sm-3">
+          <ICountUp :endVal="2612" class="feature-item__val" />
+          <div>Clients</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Features Section -->
+
+    <section class="mt-3">
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse beatae quam quisquam reprehenderit explicabo ipsum debitis natus, itaque illum dolorem amet, tempore quis quas corporis dolorum? Eius error quaerat autem?
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsum obcaecati, culpa minima architecto, harum consectetur, ut facere dolorum voluptate dolorem laudantium eveniet dolor alias numquam? Ipsum aperiam consectetur culpa?
@@ -99,17 +205,31 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
+import ICountUp from "vue-countup-v2";
 
 export default {
   name: "Home",
   components: {
     // HelloWorld
+    ICountUp
   }
 };
 </script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
 .home {
   margin-top: 4em;
 
@@ -117,7 +237,7 @@ export default {
     position: relative;
     width: 100%;
 
-    padding: 5em 0 5em 5em;
+    padding: 6em 0 7em 5em;
 
     h1 {
       text-transform: uppercase;
@@ -166,6 +286,69 @@ export default {
     @keyframes portfolio {
       50% {
         transform: translateX(1%);
+      }
+    }
+  }
+
+  .clients {
+    position: relative;
+    background: #e1f1f381;
+    padding: 1.5em 0;
+
+    img {
+      cursor: pointer;
+      height: 35px;
+      opacity: 0.3;
+      filter: grayscale(90%);
+      transition: filter 2s;
+      &:hover {
+        filter: grayscale(10%);
+      }
+    }
+  }
+
+  .features {
+    h3 {
+      font-family: "Poppins", sans-serif;
+      padding: 1em;
+      padding-bottom: 0.6em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &::before {
+        content: "";
+        width: 70px;
+        height: 3px;
+        background: #aabbd7;
+        bottom: 0;
+        margin: 1em;
+      }
+
+      &::after {
+        content: "";
+        width: 70px;
+        height: 3px;
+        background: #aabbd7;
+        bottom: 0;
+        margin: 1em;
+      }
+    }
+
+    p, li {
+      letter-spacing: 0.2px;
+      color: #575757;
+    }
+
+    .feature-item {
+      text-align: center;
+      color: #919aa3;
+      line-height: 1.5;
+
+      &__val {
+        color: #34d4ea;
+        font-weight: bold;
+        font-size: 2.5em;
       }
     }
   }
