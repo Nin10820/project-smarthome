@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <nav  id="navbar">
+    <nav id="navbar">
       <div class="logo">Vesperr</div>
       <ul class="nav-menu">
         <li v-for="(link, index) in navbarLinks" :key="link + index">
@@ -57,12 +57,12 @@ export default {
 
       if (position > 20) {
         console.log("scrolled");
-        let el = document.getElementById('navbar')
-        el.classList.add('scrolled')
+        let el = document.getElementById("navbar");
+        el.classList.add("scrolled");
       } else {
         console.log("scroll");
-        let el = document.getElementById('navbar')
-        el.classList.remove('scrolled')
+        let el = document.getElementById("navbar");
+        el.classList.remove("scrolled");
       }
     }
   },
@@ -89,11 +89,14 @@ nav {
   padding: 1.2em 2em;
   background: white;
   transition: 0.5s;
+  z-index: 1;
 
   .logo {
     font-size: 2em;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+    color: #34d4ea;
+    filter: brightness(40%);
   }
 
   .buttons {
@@ -116,7 +119,7 @@ nav.scrolled {
   display: flex;
 
   .router-link-exact-active {
-    color: #3498db;
+    color: #2fd4ec;
   }
 }
 
@@ -138,12 +141,12 @@ nav.scrolled {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #3498db;
+  color: #2fd4ec;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #3498db;
+  background: #2fd4ec;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;

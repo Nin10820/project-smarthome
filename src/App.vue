@@ -26,4 +26,8 @@ export default {
 * {
   font-family: "Roboto", sans-serif;
 }
+#app {
+  position: relative;
+  width: 100%;
+}
 </style>
