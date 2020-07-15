@@ -90,6 +90,8 @@ nav {
   background: white;
   transition: 0.5s;
   z-index: 1;
+  border-radius: 5px;
+
 
   .logo {
     font-size: 2em;
@@ -132,7 +134,7 @@ nav.scrolled {
   color: #919aa3;
   padding: 0 2em;
   transition: 0.5s;
-  font-size: 14px;
+  font-size: 1em;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
