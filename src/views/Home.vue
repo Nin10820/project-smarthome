@@ -227,61 +227,66 @@
     <!-- End Service Section -->
 
     <!-- ======= Service Section ======= -->
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id tempora dignissimos dolores aspernatur temporibus repudiandae maiores commodi soluta culpa rerum earum, voluptatum consequuntur ratione vitae, error fugit, officia dolore.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea autem, dolores sapiente culpa at dicta repellendus ratione voluptatem molestiae! Sint doloremque at illum asperiores pariatur rem, corrupti quia dolore odio!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur tenetur voluptatum explicabo saepe eum amet! Nostrum molestias accusantium ipsa obcaecati nisi quidem soluta, earum porro necessitatibus cum laborum natus adipisci?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, vero dolor earum id voluptate repellat quae reprehenderit, modi sequi possimus totam voluptas. Ducimus quae minus, aspernatur libero explicabo repudiandae blanditiis!
-      </p>
+    <section class="testimonials">
+      <div class="container">
+        <h3>Testimonials</h3>
+        <VueSlickCarousel :arrows="true" :dots="true" :autoplay="true">
+          <div class="testimonial-item text-center">
+            <div class="testimonial-item__img">
+              <img
+                src="../assets/images/testimonials/testimonials-5.jpg"
+                class="img-fluid rounded-circle"
+                alt
+              />
+            </div>
+            <div class="testimonial-item__name">
+              <div class="main">Deserunt</div>
+              <div class="sub">Web Designer</div>
+            </div>
+            <div class="testimonial-item__content">
+              <i class="fas fa-quote-left"></i>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum dolore temporibus odit earum magnam ea quaerat et impedit illum? Optio officia eos dolorem quaerat omnis aperiam. Voluptate, a cum.</span>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <div class="testimonial-item__img">
+              <img
+                src="../assets/images/testimonials/testimonials-2.jpg"
+                class="img-fluid rounded-circle"
+                alt
+              />
+            </div>
+            <div class="testimonial-item__name">
+              <div class="main">Deserunt</div>
+              <div class="sub">Web Designer</div>
+            </div>
+            <div class="testimonial-item__content">
+              <i class="fas fa-quote-left"></i>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum dolore temporibus odit earum magnam ea quaerat et impedit illum? Optio officia eos dolorem quaerat omnis aperiam. Voluptate, a cum.</span>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <div class="testimonial-item__img">
+              <img
+                src="../assets/images/testimonials/testimonials-1.jpg"
+                class="img-fluid rounded-circle"
+                alt
+              />
+            </div>
+            <div class="testimonial-item__name">
+              <div class="main">Deserunt</div>
+              <div class="sub">Web Designer</div>
+            </div>
+            <div class="testimonial-item__content">
+              <i class="fas fa-quote-left"></i>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum dolore temporibus odit earum magnam ea quaerat et impedit illum? Optio officia eos dolorem quaerat omnis aperiam. Voluptate, a cum.</span>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+        </VueSlickCarousel>
+      </div>
     </section>
     <!-- End Service Section -->
   </div>
@@ -291,13 +296,17 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import ICountUp from "vue-countup-v2";
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
   name: "Home",
   components: {
-    // HelloWorld
-    ICountUp
-  }
+    ICountUp,
+    VueSlickCarousel,
+  },
 };
 </script>
 <style lang="scss">
@@ -536,6 +545,60 @@ h3 {
 
     p {
       color: #919aa3;
+    }
+  }
+
+  .testimonials {
+    background: #f9f9fa;
+    padding: 1.5em 0;
+    padding-bottom: 5em;
+    .testimonial-item {
+      &__img {
+        width: 6em;
+        margin: auto;
+        img {
+          box-shadow: 0 0 20px -10px #4d4e4e;
+        }
+      }
+
+      &__content {
+        padding: 1.8em 0.5em;
+        color: #919aa3;
+        font-size: 1.1em;
+        svg {
+          color: #2fd3ec48;
+          font-size: 1.2em;
+
+          &:nth-child(1) {
+            margin-right: 0.5em;
+            margin-bottom: 0.1em;
+          }
+
+          &:nth-child(3) {
+            margin-left: 0.5em;
+          }
+        }
+      }
+
+      &__name {
+        .main {
+          font-family: "Poppins", sans-serif;
+          color: #34d4ea;
+          filter: brightness(40%);
+          padding-top: 0.5em;
+          font-size: 1.5em;
+          font-weight: 600;
+        }
+        .sub {
+          font-family: "Poppins", sans-serif;
+          filter: brightness(40%);
+          font-size: 0.9em;
+          font-weight: 600;
+          margin-top: -0.1em;
+          color: #cecece;
+          font-style: italic;
+        }
+      }
     }
   }
 }
