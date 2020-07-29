@@ -7,8 +7,8 @@
           <router-link :to="link.path">{{link.name}}</router-link>
         </li>
       </ul>
-      <div class="buttons">
-        <span>
+      <div class="btn-search">
+        <span class="icon">
           <i class="fas fa-search"></i>
         </span>
       </div>
@@ -101,10 +101,9 @@ nav {
     filter: brightness(40%);
   }
 
-  .buttons {
-    span {
-      color: #919aa3;
-    }
+  .btn-search {
+    cursor: pointer;
+    color: #919aa3;
   }
 }
 
