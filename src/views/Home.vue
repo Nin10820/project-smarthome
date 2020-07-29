@@ -330,6 +330,33 @@
       </div>
     </section>
     <!-- End Contact Section -->
+
+    <!-- ======= Footer Section ======= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="footer-brand">Niun108</div>
+            <div class="sub">Stay at home! Buy everything</div>
+          </div>
+          <div class="col-6 ">
+            <h4 class="text-right">Follow us</h4>
+            <div class="social-icon">
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class="icon">
+                <i class="fab fa-google"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Contact Section -->
   </div>
 </template>
 
@@ -661,6 +688,7 @@ h2 {
 
   .contact {
     padding: 1.5em 0;
+    padding-bottom: 3em;
 
     h2 {
       margin-bottom: 1em;
@@ -677,6 +705,34 @@ h2 {
         border-radius: 50%;
         width: 70px;
         height: 70px;
+      }
+    }
+  }
+
+  footer {
+    padding: 1.5em 0;
+    box-shadow: 0 0 20px -12px #919aa3;
+
+    .footer-brand {
+      font-size: 2.5em;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      color: #34d4ea;
+      filter: brightness(40%);
+    }
+    .social-icon {
+      display: flex;
+      justify-content: flex-end;
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        margin: 0 .2em;
+        border-radius: 50%;
+        background: #34d4ea;
+        color: white;
       }
     }
   }
