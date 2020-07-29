@@ -7,8 +7,9 @@
           <router-link :to="link.path">{{link.name}}</router-link>
         </li>
       </ul>
-      <div class="buttons">
-        <span>
+      <div class="btn-search"  ref="btnSearch">
+        <input type="text" placeholder="Search">
+        <span class="icon" @click="btnSearch">
           <i class="fas fa-search"></i>
         </span>
       </div>
@@ -48,9 +49,6 @@ export default {
     };
   },
   methods: {
-    scrollClass() {
-      console.log("a");
-    },
     updateScroll() {
       // this.scrollPosition = window.scrollY;
       let position = window.scrollY;
@@ -64,6 +62,10 @@ export default {
         let el = document.getElementById("navbar");
         el.classList.remove("scrolled");
       }
+    },
+    btnSearch() {
+      this.$refs.btnSearch.classList.toggle('active')
+
     }
   },
   mounted() {
@@ -101,9 +103,36 @@ nav {
     filter: brightness(40%);
   }
 
-  .buttons {
-    span {
-      color: #919aa3;
+  .btn-search {
+    cursor: pointer;
+    position: relative;
+    color: #919aa3;
+
+    input {
+      position: absolute;
+      right: 0;
+      transform: translateY(-50%);
+      padding: 0 !important;
+      width: 0;
+      border: none;
+      border-bottom: 2px solid #919aa35e;
+      transition: .5s;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    .icon {
+      position: absolute;
+      transform: translateY(-50%);
+      right: 0;
+      top: 0;
+    }
+
+    &.active {
+      input {
+        width: 150px;
+      }
     }
   }
 }
