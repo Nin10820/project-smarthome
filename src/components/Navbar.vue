@@ -1,7 +1,7 @@
 <template>
   <div class>
     <nav id="navbar">
-      <div class="logo">Vesperr</div>
+      <div class="logo">Niun108</div>
       <ul class="nav-menu">
         <li v-for="(link, index) in navbarLinks" :key="link + index">
           <router-link :to="link.path">{{link.name}}</router-link>
