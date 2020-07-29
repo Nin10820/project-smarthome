@@ -5,7 +5,7 @@
     <section id="hero" class="d-flex align-items-center">
       <div class="portfolio row">
         <div class="col-lg-5 justify-content-center portfolio-main">
-          <h3 data-aos="fade-up" data-aso-delay="100">Stay at home</h3>
+          <h2 data-aos="fade-up" data-aso-delay="100">Stay at home</h2>
           <h1 data-aos="fade-up" data-aso-delay="200">buy everything</h1>
           <div
             data-aos="fade-up"
@@ -13,7 +13,7 @@
             class="portfolio-main__content"
           >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto nam suscipit minima, ullam voluptatibus cumque aliquid necessitatibus, corporis porro odio omnis. Aperiam deleniti impedit provident sed obcaecati labore praesentium voluptatum?</div>
           <div data-aos="fade-up" data-aos-delay="600">
-            <a href="#about" class="btn btn-get-started my-5">Get Started</a>
+            <a href="#about" class="btn btn-get-started my-3">Get Started</a>
           </div>
         </div>
         <div
@@ -96,14 +96,14 @@
 
     <!-- ======= Features Section ======= -->
     <section class="features container">
-      <h3>Features</h3>
+      <h2>Features</h2>
       <p
         class="text-center"
       >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit repellat dolore id tempora saepe modi est atque minima laboriosam. Ipsum at, iure fugiat architecto dignissimos quibusdam ea quia hic numquam.</p>
       <div class="features-main row py-5">
         <img src="../assets/images/features-1.png" alt class="img-fluid col-6" />
         <div class="col-6">
-          <h4 class="font-weight-">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+          <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
           <p
             class="font-italic"
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi accusantium maxime quia, adipisci illo earum harum sequi dolore aliquid, officia</p>
@@ -139,7 +139,7 @@
 
     <!-- ======= Service Section ======= -->
     <section class="service">
-      <h3>Service</h3>
+      <h2>Service</h2>
       <p
         class="text-center pb-5 container"
       >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam, dolor ea ullam consectetur fuga Iste molestiae praesentium possimus, ullam totam eos quisquam dolores fugiat doloribus eligendi maiores dignissimos.</p>
@@ -226,10 +226,10 @@
     </section>
     <!-- End Service Section -->
 
-    <!-- ======= Service Section ======= -->
+    <!-- ======= Testimonials Section ======= -->
     <section class="testimonials">
       <div class="container">
-        <h3>Testimonials</h3>
+        <h2>Testimonials</h2>
         <VueSlickCarousel :arrows="true" :dots="true" :autoplay="true">
           <div class="testimonial-item text-center">
             <div class="testimonial-item__img">
@@ -288,7 +288,48 @@
         </VueSlickCarousel>
       </div>
     </section>
-    <!-- End Service Section -->
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section class="contact container">
+      <h2>Contact</h2>
+      <div class="contact-main row">
+        <div class="col-md-4 contact-main__info inline-2">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-info">
+            <h4>Location</h4>
+            <p>13 duong so 7 khu dan cu hong long . quan thu duc</p>
+          </div>
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <h4>Email</h4>
+            <p>Minhnguyen1082000@gmail.com</p>
+          </div>
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-info">
+            <h4>Phone</h4>
+            <p>093 837 8396</p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="inline-2 mb-4">
+            <input type="text" class="form-control" placeholder="Your Name" />
+            <input type="text" class="form-control" placeholder="Phone" />
+          </div>
+          <input type="text" class="form-control mb-4 mb-2" placeholder="Email" />
+          <input type="text" class="form-control mb-4" placeholder="Subject" />
+          <textarea name id cols="10" rows="10" class="form-control mb-4" placeholder="Message"></textarea>
+          <button class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
   </div>
 </template>
 
@@ -316,6 +357,15 @@ export default {
 * {
   font-family: "Poppins", sans-serif;
 }
+input {
+  padding: 1.4em 0.8em !important;
+}
+
+.inline-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+}
 
 h1,
 h2,
@@ -324,12 +374,13 @@ h4 {
   font-family: "Poppins", sans-serif;
 }
 
-h3 {
+h2 {
   padding: 1em;
   padding-bottom: 0.6em;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 5em;
 
   &::before {
     content: "";
@@ -348,6 +399,12 @@ h3 {
     bottom: 0;
     margin: 1em;
   }
+}
+.btn-primary {
+  background: #00c2db !important;
+  border-color: #00c2db !important;
+  padding: 0.3em 2em !important;
+  font-weight: bold;
 }
 
 .text-small {
@@ -379,12 +436,12 @@ h3 {
       filter: brightness(95%);
       color: #2fd4ec;
     }
-    h3 {
+    h2 {
       font-size: 2em;
       letter-spacing: 2px;
       padding: 0 0.2em;
       font-family: "MuseoModerno", cursive;
-      color: #34d4ea;
+      color: #00c2db;
       filter: brightness(40%);
       font-weight: medium;
     }
@@ -452,7 +509,7 @@ h3 {
       line-height: 1.5;
 
       &__val {
-        color: #34d4ea;
+        color: #00c2db;
         font-weight: bold;
         font-size: 2.5em;
       }
@@ -583,7 +640,7 @@ h3 {
       &__name {
         .main {
           font-family: "Poppins", sans-serif;
-          color: #34d4ea;
+          color: #00c2db;
           filter: brightness(40%);
           padding-top: 0.5em;
           font-size: 1.5em;
@@ -598,6 +655,28 @@ h3 {
           color: #cecece;
           font-style: italic;
         }
+      }
+    }
+  }
+
+  .contact {
+    padding: 1.5em 0;
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    &-main {
+      .contact-icon {
+        color: #00c2db;
+        background: #00c1db09;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
       }
     }
   }
