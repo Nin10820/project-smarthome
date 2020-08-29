@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <router-link to="/">Home</router-link>|
-    <router-link to="/about">About</router-link>
     <router-view />
   </div>
 </template>
@@ -14,10 +12,25 @@ export default {
     Navbar
   },
   methods: {
-    handleSCroll() {
-      console.log("a");
-    },
+    updateScroll() {
+      // this.scrollPosition = window.scrollY;
+      let position = window.scrollY;
+
+      if (position > 20) {
+        console.log("scrolled");
+        let el = document.getElementById("navbar");
+        el.classList.add("scrolled");
+      } else {
+        console.log("scroll");
+        let el = document.getElementById("navbar");
+        el.classList.remove("scrolled");
+      }
+    }
   },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+    console.log("connect");
+  }
 
 };
 </script>
@@ -30,4 +43,14 @@ export default {
   position: relative;
   width: 100%;
 }
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.scrolled {
+  box-shadow: 0 0 18px -5px #919aa3;
+  transition: 0.5s;
+}
+
 </style>

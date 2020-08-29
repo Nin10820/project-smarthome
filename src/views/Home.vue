@@ -446,13 +446,11 @@ h2 {
 }
 
 .home {
-  margin-top: 4em;
-
   .portfolio {
     position: relative;
     width: 100%;
 
-    padding: 6em 0 5em 5em;
+    padding: 8em 0 6em 6em;
 
     h1 {
       text-transform: uppercase;
